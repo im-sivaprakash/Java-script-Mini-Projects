@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!--Required meta tags-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <title> Billy Book</title>
+
+        <!-- CDN CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i|Karla:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Red+Hat+Display:400,400i,500,500i,700,700i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body >
+
+
+        <nav>
+                <div class="nav-wrapper" >
+                  <a href="" class="brand-logo">Billy Book</a>
+                  <ul id="nav-mobile" class="left">
+                    <li><a href="index.html"><i class="fas fa-arrow-circle-left"></i></a></li>
+                  </ul>
+                </div>
+              </nav>
+
+  <div class="container" >
+        <div class="col 12">
+          <div class="card  darken-1 ">
+              <div class="card-content">
+                   <h2><span class="card-title"  id="shopname" style="text-align: center;font-size: 35px;text-transform: uppercase;font-weight: 400">
+                       Shop Name
+                   </span></h2>
+                   <p><span class="center"  id="addsh" style="font-size: 15px;text-transform: capitalize">
+                   
+                </span></p>
+                <p><span class="center"  id="phn" style="font-size: 15px;text-transform: capitalize">
+                   
+                </span></p>
+                   <br>
+                   <h6><span id="cn" style="text-transform: capitalize">Customer</span>'s Bill</h6>
+                   <p>Date & Time : <span id="date"></span></p>
+                   <br>
+                   <div class="row">
+                       
+                           <div class="input-field">
+                                  <input type="text" name="item" id="Filter" >
+                                  <label for="item">Search an item</label>
+                           </div>
+                        
+                         <ul class="collection">
+                         </ul>
+                    
+                          <h5>Total : <span id="tamount"></span></h5>
+                            <hr>
+                           <input type="button" value="Clear All items" id="cls" class="btn black">
+                       
+                   </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="col s12">
+              <div class="card">
+                  <div class="card-content">
+                       <span class="card-title">
+                           Add item to Bill
+                       </span>
+                       <br>
+                       <div class="row">
+                           <form id="bill-form">
+
+                                    
+                            <div class="col 3">
+                              <div class="input-field" >
+                                      <input type="text" id="cus-txt"  style="width: 150px" name="cus-Name" >
+                                      <label for="cus-Name">Enter Customer Name</label>
+                               </div>
+                              </div>   
+
+                            <div class="col 3">
+                                    <div class="input-field">
+                                            <input type="text" id="add-item">
+                                            <label for="item">Enter New item Name</label>
+                                     </div>
+                                    
+                              </div>
+                              <div class="col 3">
+                                    <div class="input-field" >
+                                            <input type="number" id="add-amount"  style="width: 150px" name="amount">
+                                            <label for="amount">Enter Amount</label>
+                                     </div>
+                                 
+                              </div>
+
+                              <div class="col 3">
+                                <div class="input-field" >
+                                        <input type="number" id="add-quan"  style="width: 150px" name="Quantity" >
+                                        <label for="Quantity">Enter Quantity</label>
+                                 </div>
+                             
+                            </div>
+                       
+                          
+                              <input type="submit" value="Add item" id="btn" class="btn">
+                           <form>
+                      
+                  </div>
+              </div>
+            </div>
+        </div>
+          
+      
+  
+
+
+
+
+ 
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+Billy Book
+===========
+A Simple web Application for billing.
+User can make bill for their business with Billy
+----------------------------------------------------------------------
+Build with Basic features using JavaScript (JS), HTML and CSS frameworks
+Concepts used in Billy
+==>Java Script DOM manipulation,
+==>Local Storage,
+==>Math functions,
+==>Events.
+----------------------------------------------------------------------------
